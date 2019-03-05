@@ -1,0 +1,118 @@
+/*main ids*/
+
+#main {
+    /*background-color: blue;*/
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    height: 100vh;
+    width: 160vh;
+}
+
+#top {
+    background-color: #A7928B;
+    width: 160vh;
+    justify-content: space-between;
+}
+
+
+/*
+#betatop {
+     background-color: red;
+}*/
+
+
+/*
+#content {
+      background-color: brown;
+}*/
+
+#left {
+    background-color: #CA4126;
+}
+
+#middle {
+    background-color: #F4F4F4;
+}
+
+
+/*
+#right {
+      background-color: rgb(46, 200, 228);
+}*/
+
+#righttop {
+    background-color: #CA4126;
+    flex-grow: 3;
+}
+
+#rightbottom {
+    background-color: #294247;
+    flex-grow: 1;
+}
+
+
+/*flex*/
+
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+#betatop button {
+    flex-grow: 1;
+}
+
+#right div {
+    width: 9vh;
+}
+
+
+/*mediaqueries*/
+
+@media screen and (max-width: 800px) {
+    #main {
+        width: 450px;
+    }
+    #top {
+        width: 450px;
+    }
+}
+
+
+/*tags*/
+
+body {
+    background-image: url("https://image.freepik.com/free-psd/abstract-background-design_1297-87.jpg");
+    text-align: center;
+}
+
+a {
+    padding: 1px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10vh;
+    margin: 0px;
+    color: lightblue;
+}
+
+
+/*images*/
+
+#logo {
+    width: 10vh;
+    height: 10vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
